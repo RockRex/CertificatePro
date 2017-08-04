@@ -1,0 +1,4 @@
+D:\WorkSpaces\C#program\CertificatePro\DBCL\bin\Debug\DBCL.dll
+D:\WorkSpaces\C#program\CertificatePro\DBCL\bin\Debug\DBCL.pdb
+D:\WorkSpaces\C#program\CertificatePro\DBCL\obj\Debug\DBCL.dll
+D:\WorkSpaces\C#program\CertificatePro\DBCL\obj\Debug\DBCL.pdb

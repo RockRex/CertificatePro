@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB393AAD-DA4B-4AB0-BB00-D4F4843BA0A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CertificateProMis</RootNamespace>
+    <AssemblyName>CertificateProMis</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FmCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmCard.Designer.cs">
+      <DependentUpon>FmCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmCardShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmCardShow.Designer.cs">
+      <DependentUpon>FmCardShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmDepartment.Designer.cs">
+      <DependentUpon>FmDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmIdUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmIdUp.Designer.cs">
+      <DependentUpon>FmIdUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmLesson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmLesson.Designer.cs">
+      <DependentUpon>FmLesson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmLessonShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmLessonShow.Designer.cs">
+      <DependentUpon>FmLessonShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmLogin.Designer.cs">
+      <DependentUpon>FmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmMainMis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmMainMis.Designer.cs">
+      <DependentUpon>FmMainMis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmPerson.Designer.cs">
+      <DependentUpon>FmPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmRegistered.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmRegistered.Designer.cs">
+      <DependentUpon>FmRegistered.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmSchool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmSchool.Designer.cs">
+      <DependentUpon>FmSchool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmTeacher.Designer.cs">
+      <DependentUpon>FmTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FmCard.resx">
+      <DependentUpon>FmCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmCardShow.resx">
+      <DependentUpon>FmCardShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmDepartment.resx">
+      <DependentUpon>FmDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmIdUp.resx">
+      <DependentUpon>FmIdUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmLesson.resx">
+      <DependentUpon>FmLesson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmLessonShow.resx">
+      <DependentUpon>FmLessonShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmLogin.resx">
+      <DependentUpon>FmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmMainMis.resx">
+      <DependentUpon>FmMainMis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmPerson.resx">
+      <DependentUpon>FmPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmRegistered.resx">
+      <DependentUpon>FmRegistered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmSchool.resx">
+      <DependentUpon>FmSchool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmTeacher.resx">
+      <DependentUpon>FmTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBCL\DBCL.csproj">
+      <Project>{4dfce838-407a-48d4-928c-b311b9e7883f}</Project>
+      <Name>DBCL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

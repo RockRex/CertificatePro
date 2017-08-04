@@ -1,0 +1,5 @@
+D:\WorkSpaces\C#program\CertificatePro\DBCL\bin\Release\DBCL.dll
+D:\WorkSpaces\C#program\CertificatePro\DBCL\bin\Release\DBCL.pdb
+D:\WorkSpaces\C#program\CertificatePro\DBCL\obj\Release\DBCL.dll
+D:\WorkSpaces\C#program\CertificatePro\DBCL\obj\Release\DBCL.pdb
+D:\WorkSpaces\C#program\CertificatePro\DBCL\obj\Release\DBCL.csprojResolveAssemblyReference.cache
